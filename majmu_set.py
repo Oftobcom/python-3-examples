@@ -7,6 +7,8 @@ print("set A :", A)
 B={1,2,3,4,5,3,7,1,6,8,7,9}
 print("set B :", B)
 
+print(type(B))
+
 print(" max : ", max(B)) # Элементи калонтаринро мебарорад 
 
 print("min :", min(B)) # Элементи хурдтаринро мебарорад
@@ -38,4 +40,3 @@ print("set.pop: ", maj)
 
 maj.clear() # Мачмуро хамаи элеменхояшро хорич мекунад
 print("set.clear :", maj)
-
